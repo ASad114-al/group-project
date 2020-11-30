@@ -1,67 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
-h1 
-{
-   text-align: center;
-   margin-right: 2%;
-   width: 60%;
-   height: 4vh;
-   font-size:2rem;
-   font-family: 'Roboto', sans-serif;
-}
-h2
-{ font-family: 'Roboto', sans-serif;
-    font-size:2rem;
-
+h1 {
+  text-align: center;
+  margin-right: 2%;
+  width: 60%;
+  height: 4vh;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
 }
 
-.wrap
-{
-     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    flex-direction: column;
-    
-    
-   
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
 }
-.wrapper
-{
-    
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    flex-direction: column;
-    background:#7DCBFA ;
-   
+
+.wrap {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+
+.wrapper {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #7DCBFA;
+}
+
 #Ergebins {
-    font-size: 20px;
-    
-   
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 40%;
-    background:  #BEE5FD;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  background: #BEE5FD;
   border-bottom: 1px solid white;
-   
 }
 
-#Ergebins p
-{
-    margin-left: 2%;
+#Ergebins p {
+  margin-left: 2%;
 }
-#btnAdd
-{
-   
-  
-  
- 
-   background: #2569F6;
-   display: inline;
-   text-align: center;
+
+#btnAdd {
+  background: #2569F6;
+  display: inline;
+  text-align: center;
   margin-bottom: 5%;
   margin-top: 4%;
   border: none;
@@ -69,38 +55,28 @@ h2
   padding: 1% 2%;
   border-radius: 5px;
 }
-#btnAdd:hover
-{
-    background:gray;
-    color: black;
+
+#btnAdd:hover {
+  background: gray;
+  color: black;
 }
 
-
-#btnDel
-{
-    
-    border-radius: 18px;
-    width: 35px;
-    height: 3vh;
-    color: #FBEFFB;
-    background:#2569F6 ;
-    border: none;
-    margin-right: 2%;
-
-
-}
-#btnDel:hover
-{
-    background:gray;
-    color: black;
+#btnDel {
+  border-radius: 18px;
+  width: 35px;
+  height: 3vh;
+  color: #FBEFFB;
+  background: #2569F6;
+  border: none;
+  margin-right: 2%;
 }
 
-[ type="text"]{
-   width: 300px;
-    height: 3vh;
-    
-}
-body{
-    background: white;
+#btnDel:hover {
+  background: gray;
+  color: black;
 }
 
+[ type="text"] {
+  width: 300px;
+  height: 3vh;
+}
