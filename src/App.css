@@ -3,11 +3,15 @@ h1
 {
    text-align: center;
    margin-right: 2%;
-   border: 1px solid black;
    width: 60%;
    height: 4vh;
    font-size:2rem;
    font-family: 'Roboto', sans-serif;
+}
+h2
+{ font-family: 'Roboto', sans-serif;
+    font-size:2rem;
+
 }
 
 .wrap
@@ -18,53 +22,71 @@ h1
     align-items: center; 
     flex-direction: column;
     
+    
    
 }
 .wrapper
 {
-    border: 1px solid black;
-    min-width: 60%;
+    
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center; 
     flex-direction: column;
+    background:#7DCBFA ;
    
 }
-#Ergebins{
+#Ergebins {
     font-size: 20px;
-    color: brown;
-  
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 60%;
-    flex-direction: row;
-    border: 1px solid black;
+    
    
-    
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    background:  #BEE5FD;
+  border-bottom: 1px solid white;
+   
+}
+
+#Ergebins p
+{
+    margin-left: 2%;
 }
 #btnAdd
 {
    
-  /*  margin-left: 30%; */
-   /* margin-top: -8%; */
-   width: 80px;
+  
+  
  
-   background: #2EFE9A;
-   height: 3vh;
+   background: #2569F6;
    display: inline;
    text-align: center;
-   margin-top: 5% ;
+  margin-bottom: 5%;
+  margin-top: 4%;
+  border: none;
+  color: #FBEFFB;
+  padding: 1% 2%;
+  border-radius: 5px;
 }
+#btnAdd:hover
+{
+    background:gray;
+    color: black;
+}
+
+
 #btnDel
-{ margin-left: 65%;
+{/*  margin-left: 65%; */
+    
     border-radius: 18px;
     width: 35px;
     height: 3vh;
     color: #FBEFFB;
-    background:#E6E6E6 ;
+    background:#2569F6 ;
     border: none;
+    margin-right: 2%;
+
 
 }
 #btnDel:hover
@@ -74,7 +96,16 @@ h1
 }
 
 [ type="text"]{
-   width: 500px;
+   width: 300px;
     height: 3vh;
     
 }
+body{
+    background: white;
+}
+
+/* 
+
+
+
+  */
