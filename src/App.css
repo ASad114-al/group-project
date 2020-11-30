@@ -77,7 +77,7 @@ h2
 
 
 #btnDel
-{/*  margin-left: 65%; */
+{
     
     border-radius: 18px;
     width: 35px;
@@ -104,8 +104,3 @@ body{
     background: white;
 }
 
-/* 
-
-
-
-  */
