@@ -23,16 +23,21 @@ class ToDo extends Component {
     }
     render() {
         return (
-            <section>
+            <section className='wrap'>
+                <div className='wrapper'>
                 <h1>To Do List {this.state.numTodos}</h1>
+                <br/>
+                <br/>
                 <form action="">
                     <input type="text" name="taskInput" value={this.state.taskInput} placeholder="Enter Task" onChange={this.handleChange} />
+                    
                 </form>
-                <button onClick={this.handleAdd}>Add Task</button>
+                <button id='btnAdd' onClick={this.handleAdd}>Add Task</button>
+                </div>
                 {this.state.collection.map((ele, i) =>
-                    <div key={i}>
-                        <p>{ele.tasks}</p>
-                        <button onClick={this.handleDelete}>X</button>
+                    <div id='Ergebins' key={i}>
+                        <p >{ele.tasks}</p>
+                        <button id='btnDel' onClick={this.handleDelete}>X</button>
                     </div>)}
             </section>
         );

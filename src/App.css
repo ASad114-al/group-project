@@ -1,4 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 h1 
 {
-    color: red;
+   text-align: center;
+   margin-right: 2%;
+   border: 1px solid black;
+   width: 60%;
+   height: 4vh;
+   font-size:2rem;
+   font-family: 'Roboto', sans-serif;
+}
+
+.wrap
+{
+     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    
+   
+}
+.wrapper
+{
+    border: 1px solid black;
+    min-width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+   
+}
+#Ergebins{
+    font-size: 20px;
+    color: brown;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    flex-direction: row;
+    border: 1px solid black;
+   
+    
+    
+}
+#btnAdd
+{
+   
+  /*  margin-left: 30%; */
+   /* margin-top: -8%; */
+   width: 80px;
+ 
+   background: #2EFE9A;
+   height: 3vh;
+   display: inline;
+   text-align: center;
+   margin-top: 5% ;
+}
+#btnDel
+{ margin-left: 65%;
+    border-radius: 18px;
+    width: 35px;
+    height: 3vh;
+    color: #FBEFFB;
+    background:#E6E6E6 ;
+    border: none;
+
+}
+#btnDel:hover
+{
+    background:gray;
+    color: black;
+}
+
+[ type="text"]{
+   width: 500px;
+    height: 3vh;
+    
 }
